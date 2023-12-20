@@ -1,9 +1,12 @@
 /* Reset default styles and set a base font family */
-body { background: rgb(10, 36, 83);
+body { 
   font-family:'Times New Roman', Times, serif;
-color: #dddddd;
+color: #ffff;
+
   margin: 0;
   padding: 0;
+  background: rgb(23,25,118);
+background: linear-gradient(90deg, rgba(23,25,118,1) 39%, rgba(0,220,207,1) 100%);
 
 }
 
@@ -64,7 +67,7 @@ img {
 .cards {
   font-size: larger;
   font-weight: 800;
-  background-color:  #90a4ec;
+  background-color: #020e36;
   
   padding: 20px;
   text-align: center;
@@ -83,7 +86,7 @@ img {
 
 /* Styling for individual hackathon cards */
 .hackcard {
-  background-color:  #90a4ec;
+  background-color: #020e36;
   color: rgb(4, 37, 37);
   border: 1px solid #211d4a;
   padding: 20px;
@@ -137,7 +140,9 @@ img {
   padding: 20px; /* Adjust the padding as needed */
   max-height: 100%; /* Set a maximum height */
   overflow-y: auto; /* Add vertical scroll if needed */
-  background-color:  rgb(10, 36, 83);
+  background: rgb(23,25,118);
+background: linear-gradient(90deg, rgba(23,25,118,1) 39%, rgba(0,220,207,1) 100%);
+
   box-sizing: border-box; /* Ensure padding doesn't add to the width */
 }
 

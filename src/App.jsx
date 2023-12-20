@@ -248,7 +248,7 @@ const LandingPage = () => {
         <Carousel />
 
         {/* Filter input for ongoing hackathons by name */}
-        <h2> Ongoing Hackathons</h2>
+        <h2> Explore Hackathons</h2>
         <div className="filter-section">
           <div className="filter-container">
             <label htmlFor="hackathonNameFilter">Filter by Name:</label>
