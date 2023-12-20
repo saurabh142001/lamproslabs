@@ -1,0 +1,175 @@
+/* Reset default styles and set a base font family */
+body { background: rgb(10, 36, 83);
+  font-family:'Times New Roman', Times, serif;
+color: #dddddd;
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Styling for the navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #051129;
+  padding: 10px;
+  color: white;
+}
+
+/* Logo styles */
+.logo {
+  font-size: 1.5rem;
+}
+
+/* Navigation sections styles */
+.nav-sections {
+  display: flex;
+}
+
+/* Navigation item styles */
+.nav-item {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* Main content styles */
+.content {
+  padding: 20px;
+}
+
+/* Two-column container styles */
+.two-column-container {
+  display: flex;
+}
+
+/* Left column styles */
+.left-column {
+  flex: 1;
+}
+
+/* Right column styles */
+.right-column {
+  flex: 1;
+  text-align: center;
+}
+
+/* Image styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styling for individual cards */
+.cards {
+  font-size: larger;
+  font-weight: 800;
+  background-color:  #90a4ec;
+  
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+ 
+  margin: 0 0px;
+}/* ... (existing styles) */
+
+/* Container styles for two cards */
+.two-cards-container { margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; /* Add some gap between the cards */
+}
+
+/* Styling for individual hackathon cards */
+.hackcard {
+  background-color:  #90a4ec;
+  color: rgb(4, 37, 37);
+  border: 1px solid #211d4a;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header styles */
+.hackcard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo styles */
+.hackcard-logo img {
+  max-width: 50px; /* Adjust as needed */
+  max-height: 50px; /* Adjust as needed */
+}
+
+/* Body styles */
+.hackcard-body {
+  background: #ffffff;
+  /* Adjust styles as needed */
+}
+
+/* Details styles */
+.hackcard-details {
+  padding: 16px;
+}
+
+/* Footer styles */
+.hackcard-footer {
+  padding: 12px;
+  background-color: #f5f5f5;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .two-cards-container {
+    grid-template-columns: 1fr; /* Change to a single column for small screens */
+  }
+
+  .hackcard {
+    flex: 0 0 100%; /* Full width on small screens */
+  }
+}
+
+.Card-container {
+  padding: 20px; /* Adjust the padding as needed */
+  max-height: 100%; /* Set a maximum height */
+  overflow-y: auto; /* Add vertical scroll if needed */
+  background-color:  rgb(10, 36, 83);
+  box-sizing: border-box; /* Ensure padding doesn't add to the width */
+}
+
+.hackcard-prize {
+ font-weight: 600;
+ padding: 2px;
+  position: relative;
+  background: #A6FF35;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  margin:5px;
+}
+
+/* ... (rest of the styles) */
+/* Add these styles to your existing CSS or App.css file */
+
+.filter-section { margin: 40px;
+  display: flex;
+  justify-content: space-between; /* Adjust this property based on your layout preference */
+  align-items: center;
+  margin-bottom: 20px; /* Optional: Add margin for spacing */
+}
+
+.filter-container {
+  flex: 1; /* Distribute available space equally among filter containers */
+  margin-right: 10px; /* Optional: Add margin between filter containers */
+}
+
+/* Adjust the width of the input fields if necessary */
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
