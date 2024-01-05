@@ -1,6 +1,6 @@
 // GrantApp.js
 import React from "react";
-import "./Grants.css";
+import Css from "../components/grants.css";
 
 const GrantCard = ({
   grantName,
