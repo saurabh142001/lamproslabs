@@ -1,0 +1,25 @@
+/* Styling for the navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #051129;
+    padding: 10px;
+    color: white;
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  /* Navigation sections styles */
+  .nav-sections {
+    display: flex;
+  }
+  
+  /* Navigation item styles */
+  .nav-item {
+    margin-right: 20px;
+    cursor: pointer;
+  }

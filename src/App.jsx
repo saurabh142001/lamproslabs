@@ -4,6 +4,7 @@ import "./App.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import GrantsPage from "./components/grantsPage";
 
 const Navbar = () => {
   return (
@@ -309,6 +310,7 @@ function App() {
   return (
     <div className="App">
       <LandingPage />
+      <GrantsPage />
     </div>
   );
 }

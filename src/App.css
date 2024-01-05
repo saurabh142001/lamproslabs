@@ -85,6 +85,7 @@ img {
 
 /* Styling for individual hackathon cards */
 .hackcard {
+  
   background-color: #020e36;
   color: rgb(4, 37, 37);
   border: 1px solid #211d4a;

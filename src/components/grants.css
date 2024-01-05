@@ -1,0 +1,78 @@
+/* GrantApp.css */
+.grant-app {
+    text-align: center;
+    margin: 60px;
+  }
+  
+  .grant-card-container { border:10px, #2123a0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  
+  .grant-card {  border-bottom: 10px solid #020e36;
+    border-radius: 2%;
+    padding: 20px;
+    text-align: left;
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  /* Media Queries for Mobile Responsiveness */
+  @media (min-width: 600px) {
+    .grant-card-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .grant-card-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .grant-card img {
+    max-width: 100%;
+    height: auto;
+   
+  }
+  
+  .grant-card-details {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .description-container {
+    padding: 10px;
+  }
+  
+  .grant-card-footer {
+    padding: 10px;
+  }
+  
+  .grant-card-logo img {
+    max-width:25%;
+   
+    height: auto;
+  }
+  
+  
+  .grant-card:hover {
+    
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  .apply-now-button { font-weight: 800;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#A6FF35;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .apply-now-button:hover {
+    background-color: #2123a0;
+    color:#ffffff;
+  }
