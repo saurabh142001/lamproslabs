@@ -1,6 +1,6 @@
 // GrantApp.js
 import React from "react";
-import Css from "../components/grants.css";
+import Css from "../Grants/grants.css";
 
 const GrantCard = ({
   grantName,
@@ -18,7 +18,7 @@ const GrantCard = ({
     <div className="grant-card">
       <div className="grant-card-header">
         <div className="grant-card-logo">
-          <img src={logoUrl} alt={`${grantName} Logo`} />
+          <img src={logoUrl} alt={`${grantName} Logo`} loading="lazy" />
         </div>
       </div>
 

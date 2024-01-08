@@ -1,0 +1,83 @@
+
+/* Styling for individual hackathon cards */
+.hackcard {
+  
+    background-color: #020e36;
+    color: rgb(4, 37, 37);
+    border: 1px solid #211d4a;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  /* Header styles */
+  .hackcard-header { height:10%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo styles */
+  .hackcard-logo img {
+    max-width: 50px; /* Adjust as needed */
+    max-height: 50px; /* Adjust as needed */
+  }
+  
+  /* Body styles */
+  .hackcard-body {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    /* Adjust styles as needed */
+  }
+  
+  /* Details styles */
+  .hackcard-details {
+    padding: 16px;
+  }
+  
+  /* Footer styles */
+  .hackcard-footer { height: 10%;
+    padding: 12px;
+    background-color: #ffffff;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 767px) {
+    .two-cards-container {
+      grid-template-columns: 1fr; /* Change to a single column for small screens */
+    }
+  
+    .hackcard {
+      flex: 0 0 100%; /* Full width on small screens */
+    }
+  }
+  
+  .Card-container {
+    padding: 20px; /* Adjust the padding as needed */
+    max-height: 100%; /* Set a maximum height */
+    overflow-y: auto; /* Add vertical scroll if needed */
+    background: rgb(23,25,118);
+  background: linear-gradient(90deg, rgba(23,25,118,1) 39%, rgba(0,220,207,1) 100%);
+  
+    box-sizing: border-box; /* Ensure padding doesn't add to the width */
+  }
+  
+  .hackcard-prize {
+   font-weight: 600;
+   padding: 2px;
+    position: relative;
+    background: #A6FF35;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    margin:5px;
+  }
+  
+  
+  
+  

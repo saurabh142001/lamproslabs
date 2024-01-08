@@ -1,3 +1,4 @@
+
 /* GrantApp.css */
 .grant-app {
     text-align: center;
@@ -8,6 +9,9 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
+    transform: translateZ(0);
+    transition-timing-function: ease;
+    transition-duration:(1.2s);
   }
   
   .grant-card {  border-bottom: 10px solid #020e36;
@@ -34,6 +38,7 @@
   .grant-card img {
     max-width: 100%;
     height: auto;
+    
    
   }
   
@@ -69,10 +74,15 @@
     color: #000000;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition:1.2s;
+
   }
 
   .apply-now-button:hover {
     background-color: #2123a0;
     color:#ffffff;
+  }
+  .grant-card {
+    /* Existing styles... */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
   }
