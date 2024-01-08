@@ -1,6 +1,6 @@
 // Import necessary dependencies
 import React from "react";
-import Css from "./HackathonCards.css";
+import "./HackathonCards.css";
 
 // Define the OngoingHackathonCard component
 const OngoingHackathonCard = ({

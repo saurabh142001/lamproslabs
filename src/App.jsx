@@ -7,7 +7,7 @@ import {
   Link,
   Navigate,
 } from "react-router-dom";
-import Css from "../src/App.css";
+import "../src/app.css";
 import Navbar from "./components/Navbar/NavBar";
 import GrantsPage from "./components/Grants/grantsPage";
 import LandingPage from "./components/Landing_page/LandingPage";
