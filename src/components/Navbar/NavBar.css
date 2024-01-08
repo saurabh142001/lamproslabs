@@ -9,7 +9,7 @@ nav {
   }
   
   /* Logo styles */
-  .logo {
+  .logo { 
     font-size: 1.5rem;
   }
   
@@ -19,7 +19,10 @@ nav {
   }
   
   /* Navigation item styles */
-  .nav-item {
+  .nav-item { color: #A6FF35;
     margin-right: 20px;
     cursor: pointer;
+    font-size: larger;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }

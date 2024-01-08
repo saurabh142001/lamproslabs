@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import OngoingHackathonCard from "./HackathonCards.jsx";
 import Carousel from "../Carousel/CarouselCard.jsx";
 import Navbar from "../Navbar/NavBar.jsx";
+import Css from "../Landing_page/Landing.css";
 
 const LandingPage = () => {
   const [nameFilter, setNameFilter] = useState("");
