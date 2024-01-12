@@ -84,5 +84,7 @@
   }
   .grant-card {
     /* Existing styles... */
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform:translateZ(40px);
+    transition:  transform 300ms ease 0s;
+
   }

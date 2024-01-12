@@ -77,7 +77,47 @@
     color: rgb(0, 0, 0);
     margin:5px;
   }
+  .popup-container {
+    position: fixed;
+    box-shadow: #211d4a;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensure the popup is above other elements */
+  }
   
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999; /* Ensure the overlay is below the popup */
+  }
   
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1001; /* Ensure the content is above the overlay */
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px; /* Set a maximum width if desired */
+    overflow: hidden; /* Hide overflowing content */
+    position: relative;
+  }
   
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
   
+  /* Add any additional styles as needed */
+  .popupdescription-container{
+    color: #020e36;
+  }
